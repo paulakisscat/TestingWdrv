@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 /**
  * 
  * @author paulakisscat
- *
+ * @version 1.0
  */
 @Test
 public class TmpXpath {
