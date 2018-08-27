@@ -11,11 +11,11 @@ import org.testng.annotations.Test;
  * @author paulakisscat
  * @version 1.0
  */
-@Test
+
 public class TmpXpath {
 
 		static WebDriver driver = null;
-		@BeforeClass
+		@Test
 		public static void befor() {
 
 			System.setProperty("webdriver.firefox.driver", "/usr/local/bin/geckodriver");
@@ -43,10 +43,10 @@ public class TmpXpath {
 //		}
 		
 		
-		public static void main(String[] args) {
-
-			befor();
-		}
+//		public static void main(String[] args) {
+//
+//			befor();
+//		}
 	}
 
 

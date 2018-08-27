@@ -6,14 +6,4 @@
       <class name="com.paulakisscat.testing.TmpXpath"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.paulakisscat.testing.TmpXpath">
-        <methods>
-          <include name="befor"/>
-          <include name="main"/>
-        </methods>
-      </class> <!-- com.paulakisscat.testing.TmpXpath -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
